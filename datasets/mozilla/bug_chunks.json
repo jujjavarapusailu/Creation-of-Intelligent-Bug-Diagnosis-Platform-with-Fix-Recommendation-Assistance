@@ -1,0 +1,162 @@
+[
+    {
+        "bug_id": 1963814,
+        "text": "Bug ID: 1963814\nTitle: Browser UI hang in sqlite3PagerSharedLock during LoginManagerCrypto decryption (via sqlite usage during NSC_DecryptInit for SDR crypto)\nComponent: Password Manager\nSeverity: --\nPriority: --\nStatus: ASSIGNED\nOperating System: All\nKeywords:",
+        "metadata": {
+            "component": "Password Manager",
+            "severity": "--",
+            "priority": "--",
+            "status": "ASSIGNED"
+        }
+    },
+    {
+        "bug_id": 1488435,
+        "text": "Bug ID: 1488435\nTitle: Significant key input delay when typing on large Google Docs\nComponent: JavaScript Engine\nSeverity: N/A\nPriority: P3\nStatus: NEW\nOperating System: macOS\nKeywords:",
+        "metadata": {
+            "component": "JavaScript Engine",
+            "severity": "N/A",
+            "priority": "P3",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1602842,
+        "text": "Bug ID: 1602842\nTitle: OSXDisplay::EnableVsync hangs in CVDisplayLinkCreateWithActiveCGDisplays\nComponent: Widget: Cocoa\nSeverity: S3\nPriority: P3\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf:responsiveness",
+        "metadata": {
+            "component": "Widget: Cocoa",
+            "severity": "S3",
+            "priority": "P3",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1677509,
+        "text": "Bug ID: 1677509\nTitle: SendReceiveMouseInputEvent often blocks the main thread of the parent process\nComponent: Panning and Zooming\nSeverity: S3\nPriority: --\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf:responsiveness",
+        "metadata": {
+            "component": "Panning and Zooming",
+            "severity": "S3",
+            "priority": "--",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1688951,
+        "text": "Bug ID: 1688951\nTitle: Lazy font loading can still hang the main thread on Windows\nComponent: Layout: Text and Fonts\nSeverity: S3\nPriority: --\nStatus: NEW\nOperating System: Windows\nKeywords: perf:responsiveness",
+        "metadata": {
+            "component": "Layout: Text and Fonts",
+            "severity": "S3",
+            "priority": "--",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1771179,
+        "text": "Bug ID: 1771179\nTitle: AudioContext power optimizations\nComponent: Web Audio\nSeverity: S3\nPriority: P2\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf:resource-use, reproducible",
+        "metadata": {
+            "component": "Web Audio",
+            "severity": "S3",
+            "priority": "P2",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1788530,
+        "text": "Bug ID: 1788530\nTitle: Fenix hangs and memory usage jumps on theguardian.com when opening headlines in new tab\nComponent: Performance\nSeverity: S2\nPriority: P2\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf:resource-use, perf:responsiveness, reproducible",
+        "metadata": {
+            "component": "Performance",
+            "severity": "S2",
+            "priority": "P2",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1826576,
+        "text": "Bug ID: 1826576\nTitle: CSS filter() with invert() and hue-rotate() results in sluggish scrolling on Wikipedia\nComponent: Graphics: WebRender\nSeverity: S3\nPriority: --\nStatus: NEW\nOperating System: Android\nKeywords: webcompat:platform-bug",
+        "metadata": {
+            "component": "Graphics: WebRender",
+            "severity": "S3",
+            "priority": "--",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1849393,
+        "text": "Bug ID: 1849393\nTitle: Firefox regularly hangs for over half a second in SessionWriter.sys.mjs calling IOUtils.writeJSON serializing a massive JS object when saving tab state\nComponent: Session Restore\nSeverity: S3\nPriority: P3\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf, perf:responsiveness",
+        "metadata": {
+            "component": "Session Restore",
+            "severity": "S3",
+            "priority": "P3",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1903530,
+        "text": "Bug ID: 1903530\nTitle: Frequent long janks on Android on loading certain pages\nComponent: Storage: Quota Manager\nSeverity: S2\nPriority: P2\nStatus: NEW\nOperating System: Unspecified\nKeywords:",
+        "metadata": {
+            "component": "Storage: Quota Manager",
+            "severity": "S2",
+            "priority": "P2",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1928948,
+        "text": "Bug ID: 1928948\nTitle: vizzy.io - The browser is slowed down and eventually stops responding\nComponent: Site Reports\nSeverity: S2\nPriority: P2\nStatus: NEW\nOperating System: Windows 10\nKeywords: webcompat:needs-contact, webcompat:site-report",
+        "metadata": {
+            "component": "Site Reports",
+            "severity": "S2",
+            "priority": "P2",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1963578,
+        "text": "Bug ID: 1963578\nTitle: ChatGPT on clean Firefox install - \"This page is slowing down Firefox.\"\nComponent: JavaScript Engine\nSeverity: S2\nPriority: P1\nStatus: NEW\nOperating System: Unspecified\nKeywords:",
+        "metadata": {
+            "component": "JavaScript Engine",
+            "severity": "S2",
+            "priority": "P1",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1988762,
+        "text": "Bug ID: 1988762\nTitle: Slow scrolling performance on particular sites (mastodon)\nComponent: Graphics: WebRender\nSeverity: S2\nPriority: P2\nStatus: NEW\nOperating System: Android\nKeywords:",
+        "metadata": {
+            "component": "Graphics: WebRender",
+            "severity": "S2",
+            "priority": "P2",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1995805,
+        "text": "Bug ID: 1995805\nTitle: Fenix cold start applink navigation performance ~800-1100ms slower than warm, hot scenarios, p75 (fcp, lcp)\nComponent: Performance Engineering\nSeverity: S2\nPriority: P3\nStatus: NEW\nOperating System: Unspecified\nKeywords: perf:startup",
+        "metadata": {
+            "component": "Performance Engineering",
+            "severity": "S2",
+            "priority": "P3",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 2012760,
+        "text": "Bug ID: 2012760\nTitle: Jank and freezing on snowplowmap.a2gov.org\nComponent: Site Reports\nSeverity: S3\nPriority: P3\nStatus: NEW\nOperating System: Unspecified\nKeywords: leave-open, webcompat:platform-bug, webcompat:site-report, webcompat:sitepatch-applied",
+        "metadata": {
+            "component": "Site Reports",
+            "severity": "S3",
+            "priority": "P3",
+            "status": "NEW"
+        }
+    },
+    {
+        "bug_id": 1550754,
+        "text": "Bug ID: 1550754\nTitle: ContentParent::KillHard janks the main thread\nComponent: Crash Reporting\nSeverity: S3\nPriority: --\nStatus: REOPENED\nOperating System: Unspecified\nKeywords: perf:responsiveness, perf:startup, reproducible",
+        "metadata": {
+            "component": "Crash Reporting",
+            "severity": "S3",
+            "priority": "--",
+            "status": "REOPENED"
+        }
+    }
+]

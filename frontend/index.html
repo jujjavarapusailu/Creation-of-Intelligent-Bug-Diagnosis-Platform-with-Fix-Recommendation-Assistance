@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Bug Analysis System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>AI Bug Analysis System</h1>
+        <p>Structured Bug Diagnosis Report</p>
+    </header>
+
+
+    <main>
+
+        <!-- Bug Submission -->
+        <section class="card">
+
+            <h2>🐞 Bug Submission</h2>
+
+            <label>Bug Title</label>
+            <input
+                type="text"
+                id="title"
+                placeholder="Enter bug title"
+            >
+
+            <label>Bug Description</label>
+            <textarea
+                id="description"
+                placeholder="Describe the bug"
+            ></textarea>
+
+            <label>Stack Trace</label>
+            <textarea
+                id="stackTrace"
+                placeholder="Paste stack trace (optional)"
+            ></textarea>
+
+            <label>Error Logs</label>
+            <textarea
+                id="errorLogs"
+                placeholder="Paste error logs (optional)"
+            ></textarea>
+
+            <button onclick="analyzeBug()">
+                Analyze Bug
+            </button>
+
+        </section>
+
+
+        <!-- Loading -->
+        <div id="loading" class="loading hidden">
+            Analyzing bug...
+        </div>
+
+
+        <!-- Findings -->
+        <div id="findings" class="hidden">
+
+
+            <!-- Triage -->
+            <section class="card">
+
+                <h2>🎯 Triage Analysis</h2>
+
+                <div class="grid">
+
+                    <div>
+                        <strong>Severity</strong>
+                        <p id="severity">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Priority</strong>
+                        <p id="priority">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Affected Component</strong>
+                        <p id="component">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Confidence</strong>
+                        <p id="triageConfidence">-</p>
+                    </div>
+
+                </div>
+
+                <h3>Reasoning</h3>
+                <p id="triageReasoning">-</p>
+
+            </section>
+
+
+            <!-- Log Analysis -->
+            <section class="card">
+
+                <h2>📋 Log Analysis</h2>
+
+                <div class="grid">
+
+                    <div>
+                        <strong>Exception Type</strong>
+                        <p id="exceptionType">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Error Message</strong>
+                        <p id="errorMessage">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Failure Point</strong>
+                        <p id="failurePoint">-</p>
+                    </div>
+
+                    <div>
+                        <strong>Confidence</strong>
+                        <p id="logConfidence">-</p>
+                    </div>
+
+                </div>
+
+                <h3>Code Path</h3>
+                <pre id="codePath">-</pre>
+
+            </section>
+
+
+            <!-- Root Cause -->
+            <section class="card">
+
+                <h2>🧠 Root Cause Analysis</h2>
+
+                <h3>Root Cause Hypothesis</h3>
+                <p id="rootCause">-</p>
+
+                <h3>Confidence</h3>
+                <p id="rootConfidence">-</p>
+
+                <h3>Reasoning</h3>
+                <p id="rootReasoning">-</p>
+
+                <h3>Supporting Historical Evidence</h3>
+
+                <div id="rootEvidence"></div>
+
+            </section>
+
+
+            <!-- Duplicate Detection -->
+            <section class="card">
+
+                <h2>🔎 Duplicate Detection</h2>
+
+                <h3>Status</h3>
+                <p id="duplicateStatus">-</p>
+
+                <p id="duplicateReason">-</p>
+
+                <h3>Matching Historical Bugs</h3>
+
+                <div id="duplicateMatches"></div>
+
+            </section>
+
+
+            <!-- Remediation -->
+            <section class="card">
+
+                <h2>🛠️ Remediation Recommendations</h2>
+
+                <p id="remediationStatus">-</p>
+
+                <h3>Overall Confidence</h3>
+                <p id="remediationConfidence">-</p>
+
+                <div id="recommendations"></div>
+
+                <h3>Historical Evidence</h3>
+
+                <div id="remediationEvidence"></div>
+
+                <div class="warning">
+                    <strong>⚠️ Important:</strong>
+                    <p id="remediationWarning">-</p>
+                </div>
+
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
